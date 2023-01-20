@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 51rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header .top-header .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 1rem;
+  border-bottom: 0.1rem solid white;
+}
