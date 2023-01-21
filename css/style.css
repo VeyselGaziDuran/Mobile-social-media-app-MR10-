@@ -16,6 +16,7 @@ main {
 
 h1 {
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 li {
@@ -33,7 +34,7 @@ a {
 }
 
 .container {
-  max-width: 51rem;
+  max-width: 41rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -56,21 +57,37 @@ header .nav-header .nav-list {
 header .nav-header .nav-list li {
   padding: 1rem;
   margin: 1rem 1rem 1rem 0;
-  width: 8rem;
+  width: 6.7rem;
   background-color: rgb(80, 80, 80);
   text-align: center;
-  border-radius: 10rem;
+  border-radius: 5rem;
+}
+header .nav-header .search-area input {
+  width: 5.9rem;
+  border-radius: 5rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.3rem;
+}
+header .nav-header .search-area button {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background-color: rgb(80, 80, 80);
+  color: white;
 }
 
 main {
   padding: 0.3rem;
-  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
-  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 main .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 main .main-header span {
   display: flex;
@@ -95,7 +112,7 @@ main .main-img {
 }
 main .main-img img {
   margin-top: 1rem;
-  max-width: 51rem;
+  max-width: 41rem;
   height: 100%;
 }
 main .main-footer {
