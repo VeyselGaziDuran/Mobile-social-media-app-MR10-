@@ -194,3 +194,62 @@ main{
         }
     }
 }
+
+
+// TOKEN //
+
+.token{
+    display: flex;
+    
+
+    .coin{
+        
+        p{
+            font-size: 1.2rem;
+        }
+        .af{
+            width:24rem;
+            padding: 2rem;
+            border-radius: 10rem;
+            text-align: center;
+            background-color: rgb(80, 80, 80);
+            margin-bottom: 1rem;
+        }
+
+        .mc{
+            width:24rem;
+            padding: 2rem;
+            border-radius: 10rem;
+            text-align: center;
+            background-color: rgb(80, 80, 80);
+            margin-bottom: 1rem;
+        }
+
+        .cs{
+            width:24rem;
+            padding: 2rem;
+            border-radius: 10rem;
+            text-align: center;
+            background-color: rgb(80, 80, 80);
+            margin-bottom: 1rem;
+        }
+
+        .xx{
+            width:24rem;
+            padding: 2rem;
+            border-radius: 5rem;
+            text-align: center;
+            background-color: rgb(80, 80, 80);
+            margin-bottom: 1rem;
+
+            h3{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            p{
+                margin-bottom: 5rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -147,3 +147,50 @@ main .main-footer i {
 .phenomena .phenomena-user p {
   margin-right: 25rem;
 }
+
+.token {
+  display: flex;
+}
+.token .coin p {
+  font-size: 1.2rem;
+}
+.token .coin .af {
+  width: 24rem;
+  padding: 2rem;
+  border-radius: 10rem;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 1rem;
+}
+.token .coin .mc {
+  width: 24rem;
+  padding: 2rem;
+  border-radius: 10rem;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 1rem;
+}
+.token .coin .cs {
+  width: 24rem;
+  padding: 2rem;
+  border-radius: 10rem;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 1rem;
+}
+.token .coin .xx {
+  width: 24rem;
+  padding: 2rem;
+  border-radius: 5rem;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 1rem;
+}
+.token .coin .xx h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.token .coin .xx p {
+  margin-bottom: 5rem;
+  font-size: 1rem;
+}
